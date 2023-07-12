@@ -95,7 +95,7 @@ public class ListnerImplementation implements ITestListener
 	public void onFinish(ITestContext context) 
 	{
 		//		consolodate the report
-		report.flush();
+	                                           
 	}
 
 }

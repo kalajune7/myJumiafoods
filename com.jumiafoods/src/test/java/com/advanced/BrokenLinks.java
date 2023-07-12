@@ -70,6 +70,7 @@ public class BrokenLinks
 				brokenLink.add(link+" ===> Not Connected to Server ");
 			}
 		}
+		System.out.println("BROKEN LINKS");
 		System.out.println(brokenLink);
 		System.err.println(brokenLink.size());
 	}
